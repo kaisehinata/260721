@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h1 {
+    background-color:tomato;
+}
+
+h1 span {
+    background-color:skyblue;
+}
+
+.bg-lightgray {
+    background-color: #f0f0f0;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-transparent {
+    background-color: rgba(0,128,255,0.2);
+}
+
+p {
+    width: 500px;
+}

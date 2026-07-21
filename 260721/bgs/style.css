@@ -1,0 +1,30 @@
+@charset "utf8";
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 20px;
+    color: #555;
+    font-size:24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("sakura.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover {
+    background-size: cover;
+}
+
+.contain {
+    background-size: contain;
+}
+
+.px {
+    background-size: 999px auto;
+}
+
